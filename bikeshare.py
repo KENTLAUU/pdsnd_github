@@ -1,3 +1,9 @@
+ #
+ DOCSTRING
+ #
+
+# Linecomment
+
 import time
 import pandas as pd
 import numpy as np
@@ -21,11 +27,11 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     cities = ('chicago', 'new york city', 'washington')
- 
+
     while True:
         city = input('Which of these cities do you want to explore : chicago, new york city or washington? \n> ').strip().lower() #was lower()
         if city in cities:
-            break         
+            break
     # get user input for month (all, january, february, ... , june)
     while True:
         month = input('Now you have to enter a month to get some months result \n> {} \n> '.format(months))
@@ -36,7 +42,7 @@ def get_filters():
         day = input('Now you have to enter a dau to get some days result \n> {} \n> '.format(days))
         if day in days:
             break
- 
+
 
     return city, month, day
 
@@ -64,7 +70,7 @@ def load_data(city, month, day):
     # filter by month if applicable
     if month != 'all':
         # use the index of the months list to get the corresponding int
-       
+
         month = months.index(month)
 
         # filter by month to create the new dataframe
@@ -118,19 +124,19 @@ def station_stats(df):
 
     # TO DO: display most commonly used start station
     common_start_station = df['Start Station'].mode()[0]
-    
+
     print('Most Common Start Station:', common_start_station)
 
 
     # TO DO: display most commonly used end station
     common_end_station  = df['End Station'].mode()[0]
-    
+
     print('Most Common End Station:', common_end_station)
 
 
     # TO DO: display most frequent combination of start station and end station trip
     common_start_end_station = (df['Start Station'] + df['End Station']).mode()[0]
-    
+
     print('Most frequent combination of start station and end station trip:', common_start_end_station)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -164,7 +170,7 @@ def user_stats(df):
     user_types = df['User Type'].value_counts()
     print('Counts of user types:',user_types)
 
-    # TO DO: Display counts of gender  
+    # TO DO: Display counts of gender
     if 'Gender' in df:
         gender = df['Gender'].value_counts()
         print(gender)
