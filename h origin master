@@ -1,0 +1,48 @@
+[33mcommit 5982133a16bcb950b791df16c88d10445bf0b9cf[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: c011d59 151b6e0
+Author: KENT <Kin3172011@gmail.com>
+Date:   Sat Nov 14 11:59:19 2020 +0800
+
+    merge
+
+[33mcommit 151b6e01dfc0fe77f95e09d10e4b85170a3bd2f0[m[33m ([m[1;31morigin/refactoring[m[33m, [m[1;32mrefactoring[m[33m)[m
+Author: KENT <Kin3172011@gmail.com>
+Date:   Sat Nov 14 11:43:38 2020 +0800
+
+    “Linecomment__refactoring”
+
+[33mcommit 4e549f2ca04b726cb2425250f2969ff6562862c0[m
+Author: KENT <Kin3172011@gmail.com>
+Date:   Sat Nov 14 11:42:38 2020 +0800
+
+    “DOCstring_refactoring”
+
+[33mcommit c011d59fd7f1bb92d8502e41dc9b1947a3651496[m[33m ([m[1;31morigin/documentation[m[33m, [m[1;32mdocumentation[m[33m)[m
+Author: KENT <Kin3172011@gmail.com>
+Date:   Sat Nov 14 11:32:57 2020 +0800
+
+    “linecomment”
+
+[33mcommit 1a44117fc507dd6e093d1ad63189ae59b1d0d03d[m
+Author: KENT <Kin3172011@gmail.com>
+Date:   Sat Nov 14 11:29:34 2020 +0800
+
+    DOCstring
+
+[33mcommit d2cb8b142f75629d8c751c0d01116aa72921f316[m
+Author: KENT <Kin3172011@gmail.com>
+Date:   Sat Nov 14 02:16:41 2020 +0800
+
+    edit readme
+
+[33mcommit ecd9c69591d57a4b4e8872f244e4ea82485a5d20[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: KENT <Kin3172011@gmail.com>
+Date:   Sat Nov 14 01:43:35 2020 +0800
+
+    Initial commit
+
+[33mcommit 46a5819dc927e9405b589b41529d76b86d41ec36[m
+Author: Ruchi B <41761551+rbUdacProjects@users.noreply.github.com>
+Date:   Tue Aug 14 15:26:00 2018 -0700
+
+    Create README.md
