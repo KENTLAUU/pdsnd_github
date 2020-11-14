@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 
+||||||| d2cb8b1
+=======
+ #
+ DOCSTRING
+ #
+
+# Linecomment
+
+>>>>>>> f3139c96c8326781334dde3786b7eee67a4193ce
 import time
 import pandas as pd
 import numpy as np
